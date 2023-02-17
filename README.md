@@ -20,6 +20,8 @@ Instructions:
 8) Restart the firmware.
 9) Enjoy Klipper on the Troodon 2.0.
 
+IMPORTANT: After switching to Klipper and before the first print, make sure you properly determine the z offset. The value in printer.cfg was set for my particular machine and won't necessarilly be correct for yours. You can follow these instructions: https://docs.vorondesign.com/community/howto/120decibell/z_endstop_configuration.html.
+
 
 Input Shaping Instructions:
 
