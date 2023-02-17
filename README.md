@@ -17,3 +17,28 @@ Instructions:
 7) Upload the printer.cfg file (overriding the existing one).
 8) Restart the firmware.
 9) Enjoy Klipper on the Troodon 2.0.
+
+
+Input Shaping Instructions:
+
+1) Power off printer.
+2) Unplug LCD screen.
+3) Connect ADXL345 accelerometer to the motherboard via the LCD ribbon cables (see images for wiring reference).
+4) Comment [display], [neopixel btt_mini12864] and [delayed_gcode setdisplayneopixel] sections of printer.cfg.
+5) Uncomment [adxl345] and [resonance_tester] sections of printer.cfg.
+6) Restart firmware.
+7) Power on printer.
+8) Send ACCELEROMETER_QUERY in the console to ensure that acceleromter is connected correctly.
+9) Send TEST_RESONANCES AXIS=X in the console.
+10) Send TEST_RESONANCES AXIS=Y in the console.
+11) Uncomment [input_shaper] section of printer.cfg and update with the identified shaper parameters.
+12) Comment [adxl345] and [resonance_tester] sections of printer.cfg.
+13) Uncomment [display], [neopixel btt_mini12864] and [delayed_gcode setdisplayneopixel] sections of printer.cfg.
+14) Power off printer.
+15) Disconnect accelerometer.
+16) Reconnect LCD.
+17) Power on printer.
+18) Optional: Refer to Klipper documentation for how to generate shaper graphs.
+19) Enjoy ringing-free prints.
+
+Note: Sending CALIBRATE_SHAPER will test the resonances of X and Y in sequence and automatically append the shaper parameters to the end of config.g, making step 11 redundant.
