@@ -3,7 +3,7 @@ This is a Klipper configuration for the Troodon 2.0.
 
 For a full video walkthrough on how to switch your Trooodon 2.0 over to Klipper, please refer to the YGK3D YouTube channel (https://www.youtube.com/channel/UC9QBIpwbgKPf6WibCfPWb-Q).
 
-If you'd like to support my work, consider joining me on Patreon: patreon.com/user?u=80746241
+If you'd like to support my work, consider joining me on Patreon: https://www.patreon.com/user?u=80746241
 
 After installing Klipper on a Raspberry Pi, follow these instructions.
 
