@@ -15,10 +15,14 @@ Instructions:
 3) Open the bottom of the printer and remove the existing SD card from the motherboard.
 4) Insert the new SD card and power on the machine
 5) Plug the printer into the Raspberry Pi using a USB cable (port is at the back of the machine).
-6) Open a web broswer and type the print host path in the url bar (e.g. troodon2.local).
-7) Upload the printer.cfg file (overriding the existing one).
-8) Restart the firmware.
-9) Enjoy Klipper on the Troodon 2.0.
+6) Open a Terminal window and SSH into the Pi running Klipper (e.g. pi@troodon2.local).
+7) Send the command "ls /dev/serial/by-id/"
+8) Copy the output from the command
+9) Open a web broswer and type the print host path in the url bar (e.g. troodon2.local).
+10) Upload the printer.cfg file (overriding the existing one).
+11) Open the printer.cfg file and replace the printer serial identifier with the one you copied from the terminal.
+12) Restart the firmware.
+13) Enjoy Klipper on the Troodon 2.0.
 
 IMPORTANT: After switching to Klipper and before the first print, make sure you properly determine the z offset. The value in printer.cfg was set for my particular machine and won't necessarilly be correct for yours. You can follow these instructions: https://docs.vorondesign.com/community/howto/120decibell/z_endstop_configuration.html.
 
