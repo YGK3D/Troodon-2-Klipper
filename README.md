@@ -1,5 +1,5 @@
 # Troodon-2-Klipper Klicky
-This is a Klipper configuration for the Troodon 2.0 with Klicky Probe.
+This is a Klipper configuration for the Troodon 2.0 with Stealthburner & Klicky Probe.
 
 For a full video walkthrough on how to switch your Trooodon 2.0 over to Klipper, please refer to the YGK3D YouTube channel (https://www.youtube.com/watch?v=Mjz8hzR5_DE).
 
