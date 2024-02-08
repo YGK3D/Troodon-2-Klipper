@@ -3,6 +3,12 @@ This is a Klipper configuration for the Troodon 2.0.
 
 For a full video walkthrough on how to switch your Trooodon 2.0 over to Klipper, please refer to the YGK3D YouTube channel (https://www.youtube.com/watch?v=Mjz8hzR5_DE).
 
+NOTE: This confifuration was created for the original Troodon 2.0 with Afterburner print head and inductive probe.
+
+For a Troodon 2.0 with Stealthburner make the adjustments to printer.cfg as described in this video: https://www.youtube.com/watch?v=x5Rwziyn2rM
+
+For a Troodon 2.0 with Tap, make the adjutments to printer.cfg as described in this video: https://www.youtube.com/watch?v=0wY5P8Y-w9k
+
 If you'd like to support my work, consider joining me on Patreon: https://www.patreon.com/user?u=80746241
 
 After installing Klipper on a Raspberry Pi, follow these instructions.
